@@ -3,7 +3,7 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "tackVLrL#XvWkmAl1DBvKPItwZGPjSvAqsNjAhDR_s2K9EIHf3y0",
+  SESSION_ID: process.env.SESSION_ID || "sWVxVaba#Q5CE7djk_6z6HJIciUEF3iKdCB8HLrJhf7BzgZDY_oI",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
@@ -23,7 +23,7 @@ module.exports = {
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
   ANTI_LINK: process.env.ANTILINK || "true",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
   ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
